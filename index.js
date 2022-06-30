@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/', function(req,res){
     res.json({
-        pruebas: "simon"});
+        pruebas: "simon - si jalo el pipeline"});
 });
 
 app.listen(8080, function(req,res){
